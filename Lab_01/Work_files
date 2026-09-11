@@ -1,0 +1,28 @@
+@aKrasss ➜ /workspaces/System_programming (master) $ sudo rm -rf Work
+@aKrasss ➜ /workspaces/System_programming (master) $ mkdir -p 'Work/Лабораторная работа №1!' 
+@aKrasss ➜ /workspaces/System_programming (master) $ mkdir -p 'Work/Красильников Арсений Алексеевич' 
+@aKrasss ➜ /workspaces/System_programming (master) $ cd Work
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ chmod 772 'Лабораторная работа №1!'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ chmod u=w 'Красильников Арсений Алексеевич'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ touch 'Text @1' 'Text $2' 'Text #3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ echo 'Птица говорун отличается умом и сообразительностью!' > 'Text @1'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ echo 'Отличается умом, отличается сообразительностью...' >> 'T
+ext @1'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ cp 'Text @1' 'Text $2'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ mv 'Text $2' 'Лабораторная работа №1!'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ cp 'Text @1' 'Красильников Арсений Алексеевич'
+cp: cannot stat 'Красильников Арсений Алексеевич/Text @1': Permission denied
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ chmod u+x 'Красильников Арсений Алексеевич'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ cp 'Text @1' 'Красильников Арсений Алексеевич'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ gzip -k 'Text @1' 'Text #3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ tar -cf 'MyAchiv.tar' 'Text @1.gz' 'Text #3.gz'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ head -n 1 'Text @1' >> 'Text #3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ echo 'Будь осторожен! Преступник вооружен!' >> 'Text #3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ touch 'Красильников Арсений Алексеевич/Result_one'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ tac 'Text @1' > 'Красильников Арсений Алексеевич/Result_one'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ mv 'Красильников Арсений Алексеевич/Result_one' 'Красильников Арсений Алексеевич/Result_two'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ cat 'Красильников Арсений Алексеевич/T'* > 'Лабораторная работа №1!/Result_3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ uname -a >> 'Лабораторная работа №1!/Result_3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ date >> 'Лабораторная работа №1!/Result_3'
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ touch Work_files
+@aKrasss ➜ /workspaces/System_programming/Work (master) $ 
